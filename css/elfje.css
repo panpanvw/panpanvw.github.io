@@ -10,8 +10,6 @@ body {
     background-repeat: no-repeat;
     background-color: rgb(169, 190, 83);
     background-size: cover;
-    background-attachment: fixed;
-    overflow: hidden;
 }
 
 
@@ -69,20 +67,22 @@ body {
     padding: 9vmin 1% 0px 1%;
     text-align: center;
     font-size: 3vmin;
-    min-height: 15vh;
+}
 
+#zezegt{
+    min-height: 25vw;
 }
 
 #elfje{
-    height: 100vmin;
+    height: 40vh;
     background-image: url(../images/elfje.png);
     background-repeat: no-repeat;
-    background-size: 70vmin;
+    background-size: 30vh;
     background-position: right;
-
-    width: 66vmin;
-    float: right;
-
+    position:absolute;
+    width: 50vw;
+    left: 49vw;
+    border: 5px solid crimson;
     -webkit-animation-name: elfjezweeft;
     -webkit-animation-duration: 0.8s;
     -webkit-animation-direction: alternate;
@@ -92,27 +92,11 @@ body {
 }
 
 @-webkit-keyframes elfjezweeft {
-    from {background-position-y: 0vmin;
-          top: 36vmin;}
-    to{background-position-y:5vmin;
-       top: 41vmin;}   
+    from {top: 36vh;}
+    to{top: 41vh;}   
 }
 
 
-.elfjelink { 
-	position: absolute;
-    top: 36vmin;
-    right: 3vmin; 
-	width: 61vmin; 
-	height: 89vmin;
-	background-color: transparent;
-    border: 5px solid yellow;
-    animation-name: elfjezweeft;
-    animation-duration: 0.8s;
-    animation-direction: alternate;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
-}
 
 #wensscherm {
     display: none;
@@ -128,9 +112,9 @@ body {
 }
 
 @-webkit-keyframes slidein {
-    from {top: 100vh;}
+    from {left: -50vw;}
     
-    to{top: 24vh;}   
+    to{left: 0vw;}   
 }
 
  .koe{   
