@@ -9,7 +9,7 @@
 title: Elfje's blog
 email: panpanvw@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Look at this it's a description of my website! I mean, my website, mine. Let's see how this'll turn out for now.
+  Look at this it's a description of my website! I mean, my website, mine. Let's see how this turns out for now.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
