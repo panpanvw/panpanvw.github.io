@@ -82,7 +82,7 @@ body {
     position:absolute;
     width: 40vw;
     right: 5vw;
-    border: 5px solid crimson;
+    /*border: 5px solid crimson;*/
     -webkit-animation-name: elfjezweeft;
     -webkit-animation-duration: 0.8s;
     -webkit-animation-direction: alternate;
