@@ -1,0 +1,300 @@
+body {
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    background-image:url(../images/bosrivier-aangepast2.jpg);
+    font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
+    font-size:12px;
+    height: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-color: rgb(169, 190, 83);
+    background-size: cover;
+}
+
+
+.app {
+    background: url(../images/elfje.png) no-repeat center top; 
+    background-size: contain;
+    position: absolute;             
+    left: 50%;
+    top: 50%;
+    height: 30px;                  
+    width: 250px;                   
+    text-align: center;
+    padding: 200px 0px 0px 0px;     
+    margin: -125px;
+}
+
+.event {
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #FFFFFF;
+    margin: 27px;
+    padding: 4px 0px;
+    text-transform: uppercase;
+    background-color: #696969;
+    animation: fade 3000ms infinite;
+    -webkit-animation: fade 3000ms infinite;
+}
+
+.ready {
+    background-color: #4B946A;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+
+@media screen and (orientation: portrait) {
+}
+
+@media screen and (orientation: landscape) {
+}
+
+#title{
+    color: crimson;
+}
+#elfjezegt{
+    padding: 9vmin 1% 0px 1%;
+    text-align: center;
+    font-size: 3vmin;
+    min-height: 15vh;
+
+}
+
+#elfje{
+    height: 100vmin;
+    background-image: url(../images/elfje.png);
+    background-repeat: no-repeat;
+    background-size: 70vmin;
+    background-position: right;
+
+    width: 66vmin;
+    float: right;
+
+    -webkit-animation-name: elfjezweeft;
+    -webkit-animation-duration: 0.8s;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+   
+}
+
+@-webkit-keyframes elfjezweeft {
+    from {background-position-y: 0vmin;
+          top: 36vmin;}
+    to{background-position-y:5vmin;
+       top: 41vmin;}   
+}
+
+
+.elfjelink { 
+	position: absolute;
+    top: 36vmin;
+    right: 3vmin; 
+	width: 61vmin; 
+	height: 89vmin;
+	background-color: transparent;
+    border: 5px solid yellow;
+    animation-name: elfjezweeft;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+#wensscherm {
+    display: none;
+    /*background-color:  rgba(255, 255, 255,0.9);
+    background-color: rgba(167, 220, 220, 0.90);*/
+    position: fixed;
+    width: 100%;
+    height: 100%
+    /*border-radius: 2vmin;    
+    -webkit-animation: slidein 1s;
+    -webkit-animation-timing-function: cubic-bezier(.28,.04,.32,.77);
+        
+}
+
+@-webkit-keyframes slidein {
+    from {top: 100vh;}
+    
+    to{top: 24vh;}   
+}
+
+ .koe{   
+    /*textstuff starts here
+    margin-left: 2vmin;
+    margin-right: 2vmin;
+    padding-top: 3vmin;
+    padding-bottom: 1vmin;
+    text-align: center;
+    font-size: 5vmin;
+    background-clip: padding-box;
+    background-color:rgba(218, 170, 228, 0.90); 
+    text-shadow: 1px 1px 3vmin #808080;
+    border-radius: 3vmin;
+    min-height: 10vmin;*/
+}
+
+
+ #blijheidsmeterleeg {
+    position: fixed;
+    height: 20vmax;
+    width: 2vmax;
+    left: 3vmax;
+    top: 30vmax;
+    background-color: rgb(135, 135, 135);
+    border-radius: 1vmax;
+}
+
+#blijheidsmeter {
+    position: fixed;
+    height: 10vmax;
+    width: 2vmax;
+    left: 3vmax;
+    top: 40vmax;
+    background-color: crimson;
+    border-radius: 1vmax;
+}
+
+#clickmefirst {
+     position: fixed;
+     height: 100%;
+     width: 100%;
+     left: 0;
+     top: 0;
+     display: none;
+     background-color: transparent;
+}
+
+#main_screen{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: none;
+ }
+
+#menu_screen{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    display: block;
+    font-size: 7vmin;
+ }
+
+
+#achievements_screen{
+    display: none;
+}
+
+#credits_screen{
+    display: none;
+}
+
+#middle{
+    text-align: center;
+    z-index:5;
+    position: fixed;
+    height: 30vw;
+    width: 30vw;
+    left: 35vw;
+    top: 70vw;
+    background-color:  yellow;
+    border-radius: 100%;
+    box-shadow: rgba(0,0,0,.4) 5px 5px  inset;
+}
+#choice1{
+    z-index: 4;
+    top: 30vw;
+    left: 15vw;
+    background-image: url(../images/petal.png);
+    text-align: center;
+}
+
+#okbutton{
+    position: fixed;
+    z-index: 5;
+    top: 60vw;
+    left: 33vw;
+    width: 30vw;
+    height: 10vw;
+    background-color: rgb(255, 0, 102);
+    border: yellow; /* rgb(255, 0, 102) ;*/
+    text-align: center;
+}
+
+#wens1{
+    z-index: 5;
+    top: 50vw;
+    left: 33vw;
+    width: 30vw;
+    height: 10vw;
+    background-color: rgb(255, 0, 102);
+    border: rgb(255, 0, 102) ;
+    text-align: center;
+}
+#choice2{
+    -webkit-transform: rotate(240deg);
+    z-index: 3;
+    top:65vw;
+    left: 0vw;
+    background-image: url(../images/petal.png);
+    
+}
+
+#wens2{
+    z-index: 4;
+    -webkit-transform: rotate(60deg);
+    width: 35vw;
+    text-align: center;
+    top:85vw;
+    left:9vw;
+    height: 23vw;
+    
+}
+#choice3{
+    -webkit-transform: rotate(120deg);
+    z-index: 3;
+    top: 60vw;
+    left: 40vw;
+    background-image: url(../images/petal.png);
+    
+}
+
+#wens3{
+    z-index:4;
+    -webkit-transform: rotate(-60deg);
+    width: 35vw;
+    height: 23vw;
+    text-align: center;
+    top: 81vw;
+    left: 58vw;
+}
+
+.petal{
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 60%;
+    position: fixed;
+    height: 70vw;
+    min-width: 70vw;
+}
+.petaltext {
+    position: fixed;
+   font-size: 4vmin;
+   overflow: hidden;
+}
