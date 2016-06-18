@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+        Customize the content security policy in the meta tag below as needed. Add 'unsafe-inline' to default-src to enable inline JavaScript.
+        For details, see http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>CordovaAppTest</title>
+</head>
+<body>
+    <!--menu-->
+    <div id="menu_screen">
+
+        <h1 id="title">HET ELFJE - 2</h1>
+        <p id="start">start</p>
+        <p id="achievements">achievements</p>
+        <p id="kleding">locked</p>
+        <p id="credits">credits</p>
+    </div>
+
+    <!--achievements-->
+    <div id="achievements_screen">
+        <h1 id="title">Achievements</h1>
+    </div>
+    <!--main-->
+    <div id="main_screen">
+        <!--mainbg-->
+        <div id="elfjezegt">
+            <h1 id="zezegt">Ik ben een elfje, als je mij pakt mag je een wens doen!</h1>
+        </div>
+        <div id="elfje"></div>
+        <div id="blijheidsmeterleeg"></div>
+        <div id="blijheidsmeter"></div>
+
+        <!--wens-->
+        <div id="wensscherm">
+
+            <p id="middle">-></p>
+            <div class="petal" id="choice1"></div>
+            <div class="petal" id="choice2"></div>
+            <div class="petal" id="choice3"></div>
+            <input class="petaltext" required="" placeholder="Typ hier je wens." id="wens1" /> 
+            <p id="okbutton">confirm</p>     
+            <p class="petaltext" id="wens2">kies mij, ik krijg ook meer tekst want dat wilt sanne graag</p>
+            <p class="petaltext" id="wens3">ik ben leuker, meer tekst om te zien hoe dat uitvalt want dat is nodig</p>
+            <!--
+            <p id="okbutton">OK</p>
+            <p id="wens2">Ik wens een zak met GELD!</p>
+            <p id="wens3">Ik wens oneindig veel wensen!</p>
+            <p id="wens4">Ik wens driek konijnen op een fiets met zijwieltjes!</p>-->
+        </div>
+
+
+
+        <!--reactie-->
+        <div id="clickmefirst">
+        </div>
+    </div>
+
+    <div id="credits_screen">
+        
+    </div>
+<!--
+    <script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="scripts/platformOverrides.js"></script>-->
+    <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>
