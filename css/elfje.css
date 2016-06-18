@@ -8,9 +8,10 @@ body {
     height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
-    /*background-color: rgb(169, 190, 83);*/
+    background-color: rgb(169, 190, 83);
     background-size: cover;
     background-attachment: fixed;
+    overflow: hidden;
 }
 
 
