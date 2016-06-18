@@ -2,7 +2,7 @@ body {
     -webkit-touch-callout: none;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
-    background-image:url(https://panpanvw.github.io/bosrivier-aangepast2.jpg);
+    background-image:url(../images/bosrivier-aangepast2.jpg);
     font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
     font-size:12px;
     height: 100%;
@@ -14,7 +14,7 @@ body {
 
 
 .app {
-    background: url(https://panpanvw.github.io/elfje.png) no-repeat center top; 
+    background: url(../images/elfje.png) no-repeat center top; 
     background-size: contain;
     position: absolute;             
     left: 50%;
