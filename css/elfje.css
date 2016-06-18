@@ -77,10 +77,10 @@ body {
     height: 55vw;
     background-image: url(../images/elfje.png);
     background-repeat: no-repeat;
-    background-size: 45vw;
+    background-size: 40vw;
     background-position: right;
     position:absolute;
-    width: 45vw;
+    width: 40vw;
     right: 5vw;
     border: 5px solid crimson;
     -webkit-animation-name: elfjezweeft;
