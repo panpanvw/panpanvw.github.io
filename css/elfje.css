@@ -74,15 +74,15 @@ body {
 }
 
 #elfje{
-    height: 55vw;
+    height: 40vh;
     background-image: url(../images/elfje.png);
     background-repeat: no-repeat;
-    background-size: 40vw;
+    background-size: 30vh;
     background-position: right;
     position:absolute;
-    width: 40vw;
+    width: 30vh;
     right: 5vw;
-    /*border: 5px solid crimson;*/
+    border: 5px solid crimson;
     -webkit-animation-name: elfjezweeft;
     -webkit-animation-duration: 0.8s;
     -webkit-animation-direction: alternate;
@@ -92,8 +92,8 @@ body {
 }
 
 @-webkit-keyframes elfjezweeft {
-    from {top: 30vw;}
-    to{top: 35vw;}   
+    from {top: 36vh;}
+    to{top: 41vh;}   
 }
 
 
