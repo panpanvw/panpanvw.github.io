@@ -267,7 +267,6 @@
         }
     })
 
-    document.getElementById('okbutton').addEventListener('click', onConfirmed);
     document.getElementById('wens2').addEventListener('click', onWishselect);
     document.getElementById('wens3').addEventListener('click', onWishselect);
 
