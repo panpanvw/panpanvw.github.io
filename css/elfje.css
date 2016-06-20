@@ -2,16 +2,36 @@ body {
     -webkit-touch-callout: none;
     -webkit-text-size-adjust: none;
     -webkit-user-select: none;
-    background-image:url(../images/bosrivier-aangepast2.jpg);
+    /*background-image:url(../images/bosrivier-aangepast2.jpg);*/
     font-family: 'RobotoRegular', 'Droid Sans', 'Segoe UI', Segoe, 'San Francisco', 'Helvetica Neue', Helvetica, Arial, Geneva, sans-serif;
     font-size:12px;
     height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-color: rgb(169, 190, 83);
-    background-size: cover;
+    background-image: -webkit-linear-gradient(top, #283ad6,#26a8c9 50%,#26a8c9 71%, #2C8E0E 71%, #01A611);
+    background-attachment:fixed;
+}
+#wolk{
+    background-image: url(../images/bosrivier-wolk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 100vw;
+    height: 50vh;
+    top: 1vw;
+    left:0;
 }
 
+#grond{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(../images/bosrivier-grond.png);
+}
 
 .app {
     background: url(../images/elfje.png) no-repeat center top; 
