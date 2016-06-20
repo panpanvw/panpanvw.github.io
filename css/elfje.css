@@ -223,7 +223,7 @@ body {
 }
 
   .wens {
-      margin-bottom: 7vw;
+    margin-bottom: 7vw;
     position: relative;
     width: 40vw;
     padding: 2vw;
@@ -260,15 +260,6 @@ body {
     -webkit-transform: skewX(-45deg);
 }
 
-#okbutton{
-    margin:1vw;
-    display: inline;
-    width: 9vw;
-    padding: 3vw;
-    border-radius: 2vw;
-    background-color: rgb(255, 0, 102);
-    text-align: center;
-}
 
 #wens1{
     margin-bottom: 3vw;
