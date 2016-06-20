@@ -14,7 +14,7 @@ body {
 #wolk{
     background-image: url(../images/bosrivier-wolk.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100%;
     position: absolute;
     width: 100vw;
     height: 50vh;
