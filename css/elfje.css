@@ -215,7 +215,7 @@ body {
 
 
 #wenscontainer{
-    height: 50vh;
+    height: auto;
     left: 1vw;
     margin: 0;
     width: 99vw;
