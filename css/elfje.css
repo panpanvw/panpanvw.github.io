@@ -8,7 +8,7 @@ body {
     height: 100%;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-image: -webkit-linear-gradient(top, #283ad6 0%,#26a8c9 50%,#26a8c9 71%, #2C8E0E 71%, #01A611 100%);
+    background-image: -webkit-linear-gradient(top, #283ad6,#26a8c9 50%,#26a8c9 71%, #2C8E0E 71%, #01A611);
     background-attachment:fixed;
     background-size: cover; 
     background-color:#26a8c9;
