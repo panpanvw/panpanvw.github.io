@@ -12,6 +12,7 @@ body {
     background-attachment:fixed;
     background-size: cover; 
     background-color:#26a8c9;
+    background-height: 100vh;
 }
 ::-webkit-scrollbar{
     background: transparent;
